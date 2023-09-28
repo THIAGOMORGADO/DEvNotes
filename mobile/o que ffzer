@@ -1,0 +1,22 @@
+digita
+
+danilo@teste.com
+
+123456
+
+e se caso o usario for superUser  true  ele loga
+
+man agora como eu devo pensar nesse caso 
+das tarefas por usuario 
+
+
+cria uma tabela no banco chamada task
+
+id, userId, tarefa
+
+e uma rota pra criar essa tarefa
+
+dps so criar outra rota para obter e lista no app
+
+aqui nao irei usar belongTo ou hash man
+para fazer o relacionamento

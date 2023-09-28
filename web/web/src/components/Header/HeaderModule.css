@@ -1,0 +1,33 @@
+header {
+  width: 100vw;
+  height: 30%;
+  background-color: #222;
+}
+.content {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.infoHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.infoHeader h1 {
+  font-size: 2rem;
+  color: #8b2cf5;
+  font-weight: normal;
+}
+.infoHeader h2 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}

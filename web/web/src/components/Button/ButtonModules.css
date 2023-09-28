@@ -1,0 +1,10 @@
+button {
+  width: 30vw;
+  height: 5vh;
+}
+@media (max-width: 600px) {
+  button {
+    width: 74vw;
+    height: 5vh;
+  }
+}
